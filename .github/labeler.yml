@@ -1,27 +1,28 @@
-php:
-  - changed-files:
-    - any-glob-to-any-file: '**/*.php'
+rules:
+  php:
+    - changed-files:
+        - any-glob-to-any-file: '**/*.php'
 
-javascript:
-  - changed-files:
-    - any-glob-to-any-file: '**/*.js'
+  javascript:
+    - changed-files:
+        - any-glob-to-any-file: '**/*.js'
 
-module-table:
-  - changed-files:
-    - any-glob-to-any-file: '**/table.blade.php'
+  module-table:
+    - changed-files:
+        - any-glob-to-any-file: '**/table.blade.php'
 
-laravel:
-  - changed-files:
-    - any-glob-to-any-file: '**/*.php'
+  laravel:
+    - changed-files:
+        - any-glob-to-any-file: '**/*.php'
 
-blade:
-  - changed-files:
-    - any-glob-to-any-file: '**/*.blade.php'
+  blade:
+    - changed-files:
+        - any-glob-to-any-file: '**/*.blade.php'
 
-css:
-  - changed-files:
-    - any-glob-to-any-file: '**/*.css'
+  css:
+    - changed-files:
+        - any-glob-to-any-file: '**/*.css'
 
-documentation:
-  - changed-files:
-    - any-glob-to-any-file: '**/*.md'
+  documentation:
+    - changed-files:
+        - any-glob-to-any-file: '**/*.md'
