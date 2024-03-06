@@ -19,4 +19,6 @@
         <p>Explore the website and learn more about us.</p>
         <a class="btn btn-primary btn-lg" href="{{ route('about') }}" role="button">Learn More</a>
     </div>
+update blade
+
 @endsection
